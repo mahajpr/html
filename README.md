@@ -4,15 +4,25 @@ A simple HTML-only restaurant menu website created to practice semantic HTML str
 
 Project Features : 
 1.Navigation bar with menu links
+
 2.Restaurant introduction section
+
 3.Multiple food categories
+
 4.Breakfast
+
 5.Lunch
+
 6.Dinner
+
 7.Drinks
+
 8.Desserts
+
 9.Food descriptions and prices
+
 10.Food images
+
 11.Contact information footer
 
 Technologies Used:
