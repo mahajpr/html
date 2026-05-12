@@ -31,15 +31,15 @@ HTML5
 HTML Concepts Practiced
 1.Semantic HTML elements:
 
-  <header>
+  1.<header>
     
-  <nav>
+  2.<nav>
     
-  <section>
+  3.<section>
     
-  <footer>
+  4.<footer>
     
-  <address>
+  5.<address>
     
 2.Lists:
 
