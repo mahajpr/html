@@ -31,25 +31,25 @@ HTML5
 HTML Concepts Practiced
 1.Semantic HTML elements:
 
-  1.<header>
+  1.header
     
-  2.<nav>
+  2.nav
     
-  3.<section>
+  3.section
     
-  4.<footer>
+  4.footer
     
-  5.<address>
+  5.address
     
 2.Lists:
 
-Ordered Lists <ol>
+Ordered Lists 
 
-Unordered Lists <ul>
+Unordered Lists 
 
-3.Images with <img>
+3.Images with 
 
-4.Anchor links with <a>
+4.Anchor links with 
 
 5.Headings and paragraphs
   
