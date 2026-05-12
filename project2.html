@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>STUDENT REGISTRATION FORM</h1>
+    <p>Please fill out the form carefully</p>
+    
+    <form action="/submit-form" method="POST">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" placeholder="enter username" required><br>
+        <label for="password">Password:</label>
+        <input type="text" id="password" name="password" placeholder="enter password" required><br>
+        <label for="name">Enter your FullName:</label>
+        <input type="text" id="name" name="name" placeholder="FullName"><br>
+        <label for="birthday">Choose your DOB:</label>
+        <input type="date" id="birthday" name="birthday" placeholder="DOB">
+    <fieldset>
+        <legend>Gender</legend>
+            <label for="male">Male</label>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="female">Female</label>
+            <input type="radio" id="female" name="gender" value="female">
+    </fieldset>
+        <label for="number">Enter your PhoneNumber:</label>
+        <input type="text" id="number" placeholder="PhoneNumber"><br>
+        <label for="email">Enter your EmailAddress:</label>
+        <input type="text" id="email" placeholder="EmailAddress"><br>
+        <label for="address">Address:</label>
+        <textarea id="address" name="address" rows="4" cols="40" placeholder="type the full address.."></textarea><br>
+    
+    <label for="department">Department:</label>
+    <select name="department" id="department">
+        <option value="" disabled selected>Select your Deparment</option>
+        <option value="English">English</option>
+        <option value="Tamil">Tamil</option>
+        <option value="ComputerScience">ComputerScience</option>
+        <option value="Commerce">Commerce</option>
+        <option value="Physics">Physics</option>
+    </select>
+
+    <label for="course">Course:</label>
+    <select name="course" id="course">
+        <option value="" disabled selected>Select your Course</option>
+        <option value="B.A English">B.A English</option>
+        <option value="B.A Tamil">B.A Tamil</option>
+        <option value="B.Sc ComputerScience">B.Sc ComputerScience</option>
+        <option value="B.Com">B.Com</option>
+        <option value="B.Sc Physics">B.Sc Physics</option>
+    </select>
+
+    <label for="year">Year:</label>
+    <select name="year" id="year">
+        <option value="" disabled selected>Select your Year</option>
+        <option value="Ist Year">Ist Year</option>
+        <option value="IInd Year">IInd Year</option>
+        <option value="IIIrd Year">IIIrd Year</option>
+    </select>
+
+    <fieldset>
+        <legend>Skills or Interest</legend>
+        <input type="checkbox" id="coding" name="Skills or Interest" value="coding">
+        <label for="coding">Coding</label>
+        <input type="checkbox" id="sports" name="Skills or Interest" value="sports">
+        <label for="sports">Sports</label>
+        <input type="checkbox" id="music" name="Skills or Interest" value="music">
+        <label for="music">Music</label>
+    </fieldset>
+    <fieldset>
+        <legend>File Upload</legend>
+        <label for="student photo">Upload your Photo here:</label>
+        <input type="file" id="student photo" name="file upload" value="student photo">
+        <label for="document">Upload your Document here:</label>
+        <input type="file" id="document" name="file upload" value="document">
+    </fieldset>
+    <input type="checkbox">I agree to terms and conditions
+    <button type="submit">submit</button>
+    <button type="reset">Reset</button>
+   
+    </form>
+</body>
+</html>
